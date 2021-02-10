@@ -10,3 +10,5 @@ export PATH=$PATH:$HOME/.compilers/idea/bin/
 
 # goland
 export PATH=$PATH:$HOME/.compilers/goland/bin/
+
+alias ra=ranger

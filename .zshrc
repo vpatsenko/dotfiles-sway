@@ -100,3 +100,7 @@ source $ZSH/oh-my-zsh.sh
 if [ $(tty) = "/dev/tty1" ]; then
 	exec sway
 fi
+
+if [[ -e '/home/vladimir/.zprofile' ]]; then
+	  source /home/vladimir/.zprofile
+fi
