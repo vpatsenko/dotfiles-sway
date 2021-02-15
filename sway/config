@@ -31,6 +31,8 @@ set $term alacritty
 # set $menu dmenu_path | dmenu | xargs swaymsg exec --
 set $menu wofi -G --show run
 
+bindsym $mod+p exec grim -g "$(slurp)" ~/Pictures/screen-"$(date +%s)".png
+
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
